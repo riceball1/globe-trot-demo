@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;
+    padding: 10px;
+  }
+
+  .admission-banner {
+    font-family: sans-serif;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-direction: row;
+  }
+
+ 
+
+  .admission-button {
+    margin-left: 10px;
+    height: 2rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .admission-banner {
+      flex-direction: column;
+      text-align: center;
+      padding: 5px;
+      font-size: .8rem;
+    }
+    .admission-banner p {
+        width: 100%;
+    }
+  }
